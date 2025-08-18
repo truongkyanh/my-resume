@@ -2,97 +2,100 @@
 # Any fields left unchanged, please delete so your resume is fully yours!
 
 name:
-  first: John
+  first: Anh
   middle:
-  last: Doe
-about: Hi, my name is John Doe. I'm just about the most boring type of person you could
-       possibly imagine. I like collecting leaves from the tree in my back yard and documenting
-       each time I eat a peanut that is non-uniform. I am not a robot. Please hire me.
-position: Software Developer
+  last: Truong
+about: A serious and careful programmer with +7 years experience in analyze, design
+       and develop web-applications. Excels in every stage of the life cycle of software
+       development, including analyzing, coding, debugging, deployment and maintenance.
+position: Senior Software Developer
 
 birth:
-  year: 1990
-  location: New York
+  year: 1987
+  location: Da Nang
 
 # you may add more experiences by duplicating the template
 
 experience:
-- company: Company A
-  position: Developer
-  timeperiod: since January 2016
-  description: Programming and watching cute cat videos.
-  website: https://example.com
+- company: Kilatek
+  position: Senior Developer
+  timeperiod: since January 2024
+  description: Work as frontend developer in client partner's projects.
 
-- company: Company B
-  position: Frontend Developer
-  timeperiod: January 2015 - December 2015
-  description: Fulfillment of extremely important tasks.
+- company: Infostatus
+  position: Tech lead
+  timeperiod: July 2021 - August 2023
+  description: Contribute to every stage of the life cycle of software development. Manage and support team members.
 
-- company: Company C
-  position: Trainee
-  timeperiod: March 2014 - December 2014
-  description: Making coffee and baking cookies.
+- company: Axon Active Vietname - Da Nang branch
+  position: Senior Developer
+  timeperiod: April 2016 - July 2021
+  description: Work with Euro teams (developers, data scientists, ...) to build projects on smart data. We filtered, adjusted, and visualized the analyzed data to users using trending technologies (Elasticsearch, VueJS, D3, ...)
+
+- company: Magrabbit - Da Nang branch
+  position: Senior Developer + Assistant Project Manager
+  timeperiod: August 2013 - April 2016
+  description: Analyze customer's requirements, propose technologies, manage and support team members.
+
+- company: VTNS
+  position: CTO
+  timeperiod: June 2012 - December 2013
+  description: Research and build the architecture for company's projects.
+
+- company: The Gioi Phang Co., Ltd., Da Nang
+  position: Developer + Team Leader
+  timeperiod: May 2011 - May 2012
+  description: Build and maintain business websites for customers.
 
 education:
-- degree: Master of Arts
-  timeperiod: March 2012 - December 2013
-  description: Major in Hacking and Computer Penetration, University A, New York, USA.
-  website: https://example.com
-
-- degree: Bachelor of Science
-  timeperiod: March 2009 - December 2011
-  description: Major in Engineering, University B, Los Angeles, USA.
+- degree: Higher Diploma in Software Engineering
+  timeperiod: 2009 - 2011
+  description: Good grade in Internation Programmer - Softech-Aptech Center, Da Nang,
 
 # skill level goes from 0 to 100
 skills:
-- name: HTML5
-  level: 99
-- name: CSS3
-  level: 95
-- name: JavaScript
-  level: 97
-- name: Node.js
-  level: 93
-- name: Angular 2
-  level: 60
-- name: TypeScript
+- name: HTML + CSS
+  level: 90
+- name: VueJS
   level: 80
-- name: ES.Next
+- name: React
+  level: 75
+- name: Angular
+  level: 85
+- name: Javascript + Typescript
+  level: 90
+- name: Java
+  level: 70
+- name: PostgreSQL
   level: 70
 - name: Docker
-  level: 99
-knowledge: Also proficient in Adobe Photoshop and Illustrator, grew up bilingual
-  (English and Klingon).
+  level: 70
+- name: Cloud computing (AWS)
+  level: 70
 
 projects:
-- name: best-resume-ever
-  platform: Vue
-  timeperiod: February 2016
-  description: 👔 💼 Build fast 🚀 and easy multiple beautiful resumes and create your best CV ever! Made with Vue and LESS.
-  url: https://github.com/salomonelli/best-resume-ever
-
-# optional, not all resume templates have hobbies included
-hobbies:
-- name: Video Games
-  iconClass: fa fa-gamepad
-  url: https://example.com
-
-- name: Drawing
-  iconClass: fa fa-pencil
-  url: https://example.com
-
-contributions:
-- name: best-resume-ever
-  description: 👔 💼 Build fast 🚀 and easy multiple beautiful resumes.
-  url: https://github.com/salomonelli/best-resume-ever
+- name: ECG Viewer
+  platform: NextJS, React, AWS
+  description: Visualize patient's ecgs using charts and annotations that allow analysts view, analyze and update.
+- name: Lahebo
+  platform: Vue, NestJS, PostgreSQL, AWS
+  description: A risk management web application. Support risk identification, assessment and real-time alerting.
+- name: InvestorZero
+  platform: Angular, LookbackJS, PostgreSQL, AWS
+  description: Connect investors and companies to foster fundraising and business growth.
+- name: Digital Sale Assistant
+  platform: VueJS, Java, PostgreSQL, Docker
+  description: Allow sales to find prospects based on analyzed data and manage those connections.
+- name: Decision Support Platform
+  platform: VueJS, Java, PostgreSQL, Docker
+  description: Helps insurance managers visualize claims and predictions in real time. 
+- name: Promise
+  platform: BackboneJS, D3, Java, Elasticsearch, PostgreSQL, Docker
+  description: With smart data, this web-application build the networks between people and companies allow users to find opportunites and reduce risks.
 
 contact:
-  email: john.doe@email.com
-  phone: 0123 456789
-  street: 1234 Broadway
-  city: New York
-  website: johndoe.com
-  github: johnyD
+  email: truongkyanh@gmail.com
+  phone: 0905758785
 # en, de, fr, pt, ca, cn, it, es, th, pt-br, ru, sv, id, hu, pl, ja, ka, nl, he, zh-tw, lt, ko, el, nb-no
 lang: en
 `

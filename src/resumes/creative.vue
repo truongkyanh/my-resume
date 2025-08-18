@@ -77,6 +77,26 @@
         </a>
       </div>
 
+      <div v-if="person.skills"
+        class="skills-section section">
+        <div class="icon">
+          <i class="material-icons">done_all</i>
+          <span class="section-headline"> {{ lang.skills }} </span>
+        </div>
+
+        <div class="section-content-grid">
+          <a v-for="(skill, index) in person.skills" :key="index"
+            class="grid-item"
+            :href="skill.url">
+
+            <i v-if="skill.iconClass" :class="'lang-icon ' + skill.iconClass"></i>
+
+            <span v-else class="squarred-grid-item"> {{ skill.name }} </span>
+          </a>
+        </div>
+      </div>
+
+
       <div class="hobbies-container">
         <!-- <span class="subheadline">Hobbies</span> -->
         <div class="hobbies-content">
@@ -154,25 +174,6 @@
         </div>
       </div>
 
-      <div v-if="person.skills"
-        class="skills-section section">
-        <div class="icon">
-          <i class="material-icons">done_all</i>
-          <span class="section-headline"> {{ lang.skills }} </span>
-        </div>
-
-        <div class="section-content-grid">
-          <a v-for="(skill, index) in person.skills" :key="index"
-            class="grid-item"
-            :href="skill.url">
-
-            <i v-if="skill.iconClass" :class="'lang-icon ' + skill.iconClass"></i>
-
-            <span v-else class="squarred-grid-item"> {{ skill.name }} </span>
-          </a>
-        </div>
-      </div>
-
       <div v-if="person.contributions"
         class="contributions-section section">
 
@@ -209,7 +210,7 @@ export default Vue.component(name, getVueOptions(name));
 
 <style lang="less" scoped>
 
-@accent-color: #A800FA;
+@accent-color: #333;
 
 .resume {
   display: flex;
@@ -265,7 +266,7 @@ export default Vue.component(name, getVueOptions(name));
   flex-direction: column;
   padding: 30px;
 
-  height: 100%;
+  // height: 100%;
   width: 65%;
 }
 
@@ -283,6 +284,10 @@ a {
   color: @accent-color;
   position: relative;
   top: 5px;
+
+  .left-column & {
+    color: white;
+  }
 }
 
 .font-awesome-icons {
@@ -358,6 +363,10 @@ a {
   display: inline-block;
   font-size: 1.2em;
   margin-left: 5px;
+
+  .left-column & {
+    color: white;
+  }
 }
 
 .section-content {
@@ -385,10 +394,19 @@ a {
   margin-top: 10px;
   margin-bottom: 10px;
   padding-left: 32px;
+
+  .left-column & {
+    padding-left: 0;
+    justify-content: left;
+  }
 }
 
 .grid-item {
   padding-right: 20px;
+
+  .left-column & {
+    padding-right: 5px;
+  }
 }
 
 .section-content__header {
@@ -407,6 +425,7 @@ a {
   color: white;
 
   margin-top: 5px;
+  margin-bottom: 5px;
   padding: 5px;
 
   transition: .5s;
@@ -415,6 +434,13 @@ a {
     background-color: transparent;
     color: @accent-color;
     transition: .5s;
+    border-radius: 2px;
+  }
+
+  .left-column & {
+    border-color: white;
+    background-color: white;
+    color: @accent-color;
   }
 }
 
@@ -429,8 +455,7 @@ a {
 }
 
 .section-content__text--light {
-  color: rgba(0,0,0,0.42);
-  font-weight: 300;
+  color: #1a1a1a;
 }
 
 .section-content__subheader,
