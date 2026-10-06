@@ -5,10 +5,10 @@ name:
   first: Anh
   middle:
   last: Truong
-about: A serious and careful programmer with +7 years experience in analyze, design
-       and develop web-applications. Excels in every stage of the life cycle of software
-       development, including analyzing, coding, debugging, deployment and maintenance.
-position: Senior Software Developer
+about: A careful programmer with over 15 years of experience analyzing, designing
+       and building web applications. Comfortable at every stage of the software
+       lifecycle, from analysis and coding to debugging, deployment and maintenance.
+position: Software Developer
 
 birth:
   year: 1987
@@ -17,40 +17,35 @@ birth:
 # you may add more experiences by duplicating the template
 
 experience:
-- company: Kilatek
-  position: Senior Developer
-  timeperiod: since January 2024
-  description: Work as frontend developer in client partner's projects.
+- company: Clario (formerly ERT)
+  position: Software Developer
+  timeperiod: July 2020 - Now
+  description: Work across the software development lifecycle, from gathering requirements and designing RESTful APIs to building back-end services with Node.js and responsive Angular/React front ends, and deploying scalable enterprise solutions on AWS and Kubernetes.
 
-- company: Infostatus
-  position: Tech lead
-  timeperiod: July 2021 - August 2023
-  description: Contribute to every stage of the life cycle of software development. Manage and support team members.
-
-- company: Axon Active Vietname - Da Nang branch
+- company: Axon Active Vietnam - Da Nang branch
   position: Senior Developer
-  timeperiod: April 2016 - July 2021
-  description: Work with Euro teams (developers, data scientists, ...) to build projects on smart data. We filtered, adjusted, and visualized the analyzed data to users using trending technologies (Elasticsearch, VueJS, D3, ...)
+  timeperiod: April 2016 - July 2020
+  description: Worked with European teams of developers and data scientists on smart data projects. Filtered and adjusted the analyzed data and presented it to users in visualizations built with Elasticsearch, VueJS, D3 and other technologies.
 
 - company: Magrabbit - Da Nang branch
   position: Senior Developer + Assistant Project Manager
   timeperiod: August 2013 - April 2016
-  description: Analyze customer's requirements, propose technologies, manage and support team members.
+  description: Analyzed customer requirements, proposed technologies, and managed and supported team members.
 
 - company: VTNS
   position: CTO
   timeperiod: June 2012 - December 2013
-  description: Research and build the architecture for company's projects.
+  description: Researched and designed the architecture for the company's projects.
 
 - company: The Gioi Phang Co., Ltd., Da Nang
   position: Developer + Team Leader
   timeperiod: May 2011 - May 2012
-  description: Build and maintain business websites for customers.
+  description: Built and maintained business websites for customers.
 
 education:
 - degree: Higher Diploma in Software Engineering
   timeperiod: 2009 - 2011
-  description: Good grade in Internation Programmer - Softech-Aptech Center, Da Nang,
+  description: Good grade in International Programmer - Softech-Aptech Center, Da Nang,
 
 # skill level goes from 0 to 100
 skills:
@@ -65,7 +60,7 @@ skills:
 - name: Javascript + Typescript
   level: 90
 - name: Java
-  level: 70
+  level: 60
 - name: PostgreSQL
   level: 70
 - name: Docker
@@ -74,28 +69,41 @@ skills:
   level: 70
 
 projects:
-- name: ECG Viewer
+- name: Virtual CER-S
+  platform: NodeJS, .NET, PostgreSQL, Lambda, AWS
+  description: A service that lets users work with the CER-S application through interactive or non-interactive sessions.
+- name: Strip Selection Editor
+  platform: NextJS, React, D3, AWS
+  description: A web app for editing and managing strip selections.
+- name: BeatWyze
   platform: NextJS, React, AWS
-  description: Visualize patient's ecgs using charts and annotations that allow analysts view, analyze and update.
+  description: Shows a patient's ECGs as charts with annotations that analysts can view, analyze, and update.
+- name: CDU
+  platform: Angular, AWS
+  description: A web app for uploading large cardiac data files.
+- name: ECG Overread
+  platform: Angular, AWS
+  description: A web app for reviewing and analyzing ECG data.
 - name: Lahebo
   platform: Vue, NestJS, PostgreSQL, AWS
-  description: A risk management web application. Support risk identification, assessment and real-time alerting.
+  description: A risk management web app that supports risk identification, assessment, and real-time alerting.
 - name: InvestorZero
   platform: Angular, LookbackJS, PostgreSQL, AWS
-  description: Connect investors and companies to foster fundraising and business growth.
+  description: Connects investors with companies for fundraising and business growth.
 - name: Digital Sale Assistant
   platform: VueJS, Java, PostgreSQL, Docker
-  description: Allow sales to find prospects based on analyzed data and manage those connections.
+  description: Lets sales teams find prospects from analyzed data and manage those connections.
 - name: Decision Support Platform
   platform: VueJS, Java, PostgreSQL, Docker
-  description: Helps insurance managers visualize claims and predictions in real time. 
+  description: Helps insurance managers view claims and predictions in real time.
 - name: Promise
   platform: BackboneJS, D3, Java, Elasticsearch, PostgreSQL, Docker
-  description: With smart data, this web-application build the networks between people and companies allow users to find opportunites and reduce risks.
+  description: A web app that uses smart data to map the networks between people and companies, so users can find opportunities and reduce risks.
 
 contact:
   email: truongkyanh@gmail.com
-  phone: 0905758785
+  city: Da Nang, Vietnam
+  # phone: +84905758785
 # en, de, fr, pt, ca, cn, it, es, th, pt-br, ru, sv, id, hu, pl, ja, ka, nl, he, zh-tw, lt, ko, el, nb-no
 lang: en
 `
